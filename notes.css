@@ -1,0 +1,85 @@
+:root{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+.container{
+    max-width: 1080px;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.notes-area{
+    max-width: 75%;
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#notes{
+    max-width: 50%;
+    margin: 20px auto;
+
+}
+
+.form-area{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    color: white;
+}
+
+input[type="text"]{
+
+    height: 40px;
+    max-width: 400px;
+
+
+}
+
+.form-group + .form-group{
+    margin-top: 10px;
+}
+
+button{
+    height: 40px;
+    background-color: lawngreen;
+}
+
+#notes{
+    color: white;
+}
+
+.note-inputs{
+    display: block;
+    border: none;
+    outline: none;
+}
+
+#note-input{
+   border-left-style: none;
+   border-right-style: none;
+   border-top-style: none;
+   background-color: inherit;
+   outline: none;
+   color: white;
+   margin-top: 20px;
+}
+
+.notes-input-group + .notes-input-group{
+    margin-top: 10px;
+}
+
+.notes-input-group a{
+    cursor: pointer;
+}
+
+.notes-input-group a:hover{
+    text-decoration: underline;
+}
